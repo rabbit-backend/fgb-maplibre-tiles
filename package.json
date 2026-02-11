@@ -1,5 +1,5 @@
 {
-  "name": "@rabbit-backend/fgb-maplibre-tiles",
+  "name": "fgb-maplibre-tiles",
   "version": "0.0.1",
   "description": "generate z, x, y tiles from flat geobuffer",
   "license": "ISC",

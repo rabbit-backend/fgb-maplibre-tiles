@@ -8,7 +8,7 @@ Your FlatGeobuf is **spatially queried per tile**, converted to Mapbox Vector Ti
 ## 📦 Installation
 
 ```bash
-npm install @rabbit-backend/fgb-maplibre-tiles
+npm install fgb-maplibre-tiles
 ```
 
 You still need MapLibre GL JS in your app:
@@ -23,7 +23,7 @@ npm install maplibre-gl
 
 ```ts
 import maplibregl from "maplibre-gl";
-import { fgbProtocol } from "@rabbit-backend/fgb-maplibre-tiles";
+import { fgbProtocol } from "fgb-maplibre-tiles";
 
 // 1) Register protocol
 maplibregl.addProtocol("fgb", fgbProtocol);
